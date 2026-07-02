@@ -1,527 +1,1045 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ckotugeh | Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Charles Otugeh | Penetration Tester | Security Analyst | Application Developer">
+    <meta name="keywords"
+        content="Cybersecurity, Penetration Testing, Security Analyst, OWASP, HTB, Web Security">
+    <meta name="author" content="Charles Otugeh">
+
+    <title>Charles Otugeh | Cybersecurity Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
-    
-    <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
 
-            <h1 class="header-title">
-                <h1>CHARLES  OTUGEH</h1>
-                <P><span class="up">Penetration Tester | Security Analyst | Application Developer | Data Analyst</span></P>
-            
-            </h1>
-            <button class="btn btn-primary"><a href="#service" style="color: white;">My Work</a></button>
-        </div>
+    <!--=============================
+            HEADER
+    ==============================-->
+
+    <header id="home">
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <span>&lt;</span>CKOTUGEH<span>/&gt;</span>
+
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#writeups">Writeups</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="menu-btn">
+
+                <i class="fas fa-bars"></i>
+
+            </div>
+
+        </nav>
+
     </header>
-  </header>
 
-  <main>
-    <section>
-      <h2>Professional Summary</h2>
-      <p> I hold a bachelor’s degree in Statistics and Computer Science with hands-on expertise in ethical hacking
-and security analysis. My professional background spans ICT Innovation Management, Data Analysis,
-Penetration Testing, and Vulnerability Analysis, with proven experience as an ICT Officer in Innovation
-Management at the Public Service Commission, a Data Analyst in healthcare at Mater Hospital and Edge
-Medical Technology and Research, a Penetration Tester at Cyber Shujaa, a Procurement Officer
-optimizing secure operations at RFH Healthcare, and Software Development at Zone01 Kisumu. Skilled in
-tools such as Kali Linux, Nmap, Wireshark, SMB, Metasploit, and languages Go, JS, HTML, CSS, and
-Python, and familiar with intrusion detection skills acquired from lab machines.
-      </p>
-    </section>
+    <!--=============================
+            HERO
+    ==============================-->
 
-    <section>
-      <h2>Tools & Scripts</h2>
+    <section class="hero">
 
-      <div class="project">
-        <h3><a href="https://github.com/ckotugeh/bash-osint" target="_blank">Bash-OSINT</a></h3>
-        <p>Automated OSINT scanner using Bash, `curl`, and `jq` with data pulled from public APIs like Shodan, HaveIBeenPwned, and Hunter.io.</p>
-      </div>
+        <div id="particles-js"></div>
 
-      <div class="project">
-        <h3><a href="https://github.com/ckotugeh/nmap-parser" target="_blank">Nmap Parser</a></h3>
-        <p>Python script to parse `.gnmap` and `.xml` output from Nmap scans for fast service enumeration and exploitation.</p>
-      </div>
+        <div class="hero-container">
 
-      <div class="project">
-        <h3><a href="https://github.com/ckotugeh/recon-lab" target="_blank">Recon-ng Labs</a></h3>
-        <p>Real-world recon workflows using Recon-ng, SpiderFoot, and Maltego with domain pivoting and breach correlation.</p>
-        <img src="img/grep i 'THM' SSHD.log.png" alt="THM">
-      </div>
-    </section>
+            <div class="hero-left">
 
-    <section>
-      <h2>📄 Writeups</h2>
-      <ul>
-        <li><a href="https://github.com/ckotugeh/writeups/blob/main/hackthebox-injection.md" target="_blank">HTB – SQL Injection Walkthrough</a></li>
-        <li><a href="https://github.com/ckotugeh/writeups/blob/main/aws-iam-misconfig.md" target="_blank">AWS IAM Misconfiguration Exploit</a></li>
-      </ul>
-    </section>
+                <p class="welcome">
 
-    <section>
-      <h2>Contact</h2>
-      <p>
-        GitHub: <a href="https://github.com/ckotugeh" target="_blank">ckotugeh</a><br>
-        Email: <a href="mailto:ckotugeh@gmail.com">ckotugeh@gmail.com</a><br>
-        Mobile: <a href="tel:+254704433824">+254704433824</a>
-      </p>
-    </section>
-  </main>
+                    Hello, I'm
 
-  <footer>
-    <p>
-      &copy; <span id="year"></span> ckotugeh. Built with focus, coffee, and a dark terminal.
-    </p> 
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-  </footer>
+                </p>
 
+                <h1>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+                    Charles
+                    <span>Otugeh</span>
 
-   
+                </h1>
 
-    <!-- about section -->
-    <section class="section pt-0" id="about">
-        <!-- container -->
-        <div class="container text-center">
-            <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder">
-                    <img src="ckotugeh.github.io/img" class="about-img"
-                        alt="myImage">
+                <h2>
+
+                    <span id="typing"></span>
+
+                </h2>
+
+                <p class="hero-text">
+
+                    I identify vulnerabilities before attackers do.
+
+                    I build secure web applications, perform
+                    penetration testing, analyze threats,
+                    and develop software that follows
+                    security best practices.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn">
+
+                        View Projects
+
+                    </a>
+
+                    <a href="assets/docs/Charles_Otugeh_Resume.pdf"
+                        class="btn btn-outline"
+                        target="_blank">
+
+                        Download CV
+
+                    </a>
+
                 </div>
-                <section>
-      <h2>Contact</h2>
-      <p>
-        GitHub: <a href="https://github.com/ckotugeh" target="_blank">ckotugeh</a><br>
-        Email: <a href="mailto:ckotugeh@gmail.com">ckotugeh@gmail.com</a><br>
-        Mobile: <a href="tel:+254704433824">+254704433824</a>
-      </p>
+
+                <div class="socials">
+
+                    <a href="https://github.com/ckotugeh"
+                        target="_blank">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                    <a href="https://linkedin.com/in/charles-otugeh"
+                        target="_blank">
+
+                        <i class="fab fa-linkedin"></i>
+
+                    </a>
+
+                    <a href="mailto:ckotugeh@gmail.com">
+
+                        <i class="fas fa-envelope"></i>
+
+                    </a>
+
+                    <a href="tel:+254704433824">
+
+                        <i class="fas fa-phone"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-right">
+
+                <div class="terminal">
+
+                    <div class="terminal-header">
+
+                        <span class="red"></span>
+
+                        <span class="yellow"></span>
+
+                        <span class="green"></span>
+
+                    </div>
+
+<pre class="terminal-body">
+$ whoami
+
+Charles Otugeh
+
+Role:
+Penetration Tester
+
+Specialization:
+✔ Web Security
+✔ Network Security
+✔ OWASP Top 10
+✔ Secure Development
+✔ Threat Analysis
+
+Status:
+
+Scanning...
+
+███████████████ 100%
+
+Access Granted.
+</pre>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="#about" class="scroll-down">
+
+            <i class="fas fa-chevron-down"></i>
+
+        </a>
+
     </section>
-                <div class="about-caption">
-                    <p class="section-subtitle"><h1>Charles Otugeh  </h1></p>
-                    <h2 class="section-title mb-3">Is a professional with the background in Computer Science with hands-on expertise in ethical hacking and security analysis</h2>
+
+    <!--=============================
+            ABOUT
+    ==============================-->
+
+    <section id="about">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>About Me</h2>
+
+                <p>
+                    Think Like an Attacker.
+                    Build Like a Defender.
+                </p>
+
+            </div>
+                        <div class="about-grid">
+
+                <div class="about-image">
+
+                    <img src="assets/img/profile.webp"
+                        alt="Charles Otugeh">
+
+                </div>
+
+                <div class="about-content">
+
+                    <h3>Penetration Tester & Secure Software Developer</h3>
+
                     <p>
-                        I am proactive and results-driven Security  and Software Developer 
-                        with extensive experience in statistical Data analysis and Innovation Management, 
-                        Penetration testing, vulnerability analysis.
-                       
+
+                        I hold a Bachelor's degree in Statistics and Computer
+                        Science with professional experience spanning
+                        cybersecurity, ICT infrastructure, software
+                        development and data analytics.
+
                     </p>
-                    <p>My professional background spans ICT innovation managemnt at Public Service Commission and ICT Authority
-                        background in host discovery  to identify misconfigured shares in the network.
+
+                    <p>
+
+                        My focus is identifying vulnerabilities before
+                        attackers exploit them through penetration testing,
+                        secure application development, vulnerability
+                        assessments and threat analysis.
+
                     </p>
-                     <p>
-                        Charles Otugeh lab works
+
+                    <p>
+
+                        I have worked with organizations in healthcare,
+                        government and software engineering while continually
+                        improving my offensive and defensive security skills
+                        through Hack The Box, TryHackMe and real-world labs.
+
                     </p>
-                    <button type="button" class="btn btn-outline-primary btn-rounded mt-4" onclick="window.open('ckotugeh.github.io/img', '_blank')">Lab Work</button>
-                </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
 
-    <!-- service section -->
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">First lab</p>
-            <h6 class="section-title mb-6"></h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="img/2025-08-08 17_49_10-Greenshot - Copy (2).png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">Netwok discovery</h6>
-                            <p class="subtitle">My main focus is to identify misconfigured shares in the network, and provide solution on proper remediation </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="img/flag-4 - Copy (2).png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">Web Develpment</h6>
-                            <p class="subtitle">I ensure web applications are secure, and  high-performance.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="img/b.png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">Software / App Dev</h6>
-                            <p class="subtitle">I build, test, maintain applications, application is secure, performance & interactivity.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="docs/README.md"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">Data Analysis</h6>
-                            <p class="subtitle">I use modelling techniqued to make data meaning in contemporary issues</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of row -->
-        </div>
-    </section><!-- end of service section -->
-
-    <section class="section" id="service">
-        <div class="container text-center">
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="docs/Charles_otugeh_caption report.pdf"
-                                alt="/"
-                                class="icon">
-                            <h6 class="title">Collaboration</h6>
-                            <p class="subtitle">I work with team members on a project to achieve set goals by organization</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="docs/The lab is for python basics - Copy.pdf"
-                                alt="/"
-                                class="icon">
-                            <h6 class="title">##</h6>
-                            <p class="subtitle">##</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="docs/The lab is for python basics.pdf"
-                                alt='/'
-                                class="icon">
-                            <h6 class="title">Strategic Analyst</h6>
-                            <p class="subtitle">Analyzing complex situations, consider long-term goals, and develop effective plans to achieve success.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="docs/exam-cisco.md"
-                                alt="/"
-                                class="icon">
-                            <h6 class="title">Team Leadership</h6>
-                            <p class="subtitle">Motivate teams, ensuring effective collaboration, setting clear goals, and supporting team members to success.</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of row -->
-        </div>
-    </section><!-- end of service section -->
-
-    <!-- portfolio section --
-    <section class="section" id="portfolio">
-        <div class="container text-center">
-            <p class="section-subtitle">What I have done</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
-             row --
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://esafesystems.co.ke" class="portfolio-card">
-                        <img src="assets/imgs/portfolio1.png" class="portfolio-card-img"
-                            alt="Esafe Systems Website">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Website Development</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://skillful-ivory-boar.esafesystems.co.ke/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/portfolio2.png" class="img-responsive rounded"
-                            alt="">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Ecommerce App</h5>
-                                    <p class="font-weight-normal">Category: Ecommerce Applications</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://beachkitchenfoods.com/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/portfolio3.png" class="img-responsive rounded"
-                            alt="">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Website Development</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://bulksms.esafesystems.co.ke" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/portfolio5.png" class="img-responsive rounded"
-                            alt="">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Website Development</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-            </div> end of row 
-        </div> end of container 
-    </section>  end of portfolio section
-
-     pricing section 
-<section class="section" id="pricing">
-        <div class="container text-center">
-            <p class="section-subtitle">How Much I Charge</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
-            row 
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic</h6>
-                        <div class="pricing-card-list">
-                            <p>Website Landing Pages</p>
-                            <p>Poster Designs</p>
-                            <p>Logo Designs</p>
-                            <p>Business Profiles</p>
-                            <p><i class="ti-close"></i></p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span style="text-decoration: line-through;">Ksh 15,000</span>
-                    </div>
-                    <a href="#contact" class="btn btn-primary mt-3 pricing-card-btn">Reach Out</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Standard</h6>
-                        <div class="pricing-card-list">
-                            <p>Web Applications</p>
-                            <p>Graphic Designs</p>
-                            <p>Logo Designs</p>
-                            <p>SEO Optimization</p>
-                            <p>Web Hosting</p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span style="text-decoration: line-through;">Ksh 35, 000</span>
-                    </div>
-                    <a href="#contact" class="btn btn-primary mt-3 pricing-card-btn">Reach Out</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/startup.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium</h6>
-                        <div class="pricing-card-list">
-                            <p>APP / Systems Designs</p>
-                            <p>Mobile Applications</p>
-                            <p>IOS / Android Apps</p>
-                            <p>APP Deployment</p>
-                            <p>SEO Optimization</p>
-                            <p>Content Management</p>
-                            <p>Logo Designs</p>
-                            <p>Graphic Designs</p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span style="text-decoration: line-through;">Ksh 100, 000</span>
-                    </div>
-                    <a href="#contact" class="btn btn-primary mt-3 pricing-card-btn">Reach Out</a>
                 </div>
 
-             </div> end of pricing wrapper 
-        </div> end of container 
-    </section>< end of pricing section 
-
-    section 
-    <section class="section-sm bg-primary">
-        container
-        <div class="container text-center text-sm-left">
-            
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me</h6>
-                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                   <button class="btn btn-lg my-font btn-light rounded"><a href="#contact"><b style="color: black;">Hire Me</b></a></button>
-                </div>
-            </div> 
-        </div> end of container 
-    </section>  end of sectio
-
-testimonial section 
-    <section class="section" id="testmonial">
-        <div class="container text-center">
-            <p class="section-subtitle">What Clients think About Me</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
-
-          
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/face1.png" class="testimonial-card-img"
-                                alt="img">
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">I was looking for an experienced web developer who will design an outsanding website for my start-up and I can say that Jack met my expectations. Kudos!!</p>
-                            <h6 class="testimonial-card-title">James</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/face2.png" class="testimonial-card-img"
-                                alt="img">
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Really appreciated all the components & keywords that you used. We did not know how much SEO really affected our performance online. Thank you for the insights.</p>
-                            <h6 class="testimonial-card-title">Emily</h6>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>  end of container 
-    </section> end of testimonial section 
 
-     blog section 
-    <section class="section" id="blog">
-     container 
-        <div class="container text-center">
-            <p class="section-subtitle">Recent Posts</p>
-            <h6 class="section-title mb-6">Blog</h6>
-             blog-wrapper 
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/office.png" class="blog-card-img"
-                        alt="Office-Image">
+        </div>
+
+    </section>
+
+    <!-- =====================================
+                SKILLS
+    ====================================== -->
+
+    <section id="skills">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Technical Skills</h2>
+
+                <p>Technologies and tools I use every day.</p>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <h4>Kali Linux</h4>
+
+                    <div class="progress">
+
+                        <span style="width:95%"></span>
+
+                    </div>
+
+                    <small>95%</small>
+
                 </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Jack</h6>
 
-                        <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
-                        </p>
-                        <p>I can look after your website for you, including improvements, updates, SEO, and day-to-day help. I do it all in-house. All this is done when you give me a project.</p>
+                <div class="skill-card">
 
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                    <h4>Nmap</h4>
+
+                    <div class="progress">
+
+                        <span style="width:92%"></span>
+
+                    </div>
+
+                    <small>92%</small>
+
                 </div>
-            </div> end of blog wrapper
 
-            blog-wrapper 
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/office2.png" class="blog-card-img"
-                        alt="Office-Image">
+                <div class="skill-card">
+
+                    <h4>Burp Suite</h4>
+
+                    <div class="progress">
+
+                        <span style="width:88%"></span>
+
+                    </div>
+
+                    <small>88%</small>
+
                 </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Jack</h6>
 
-                        <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                            <a href="#"><i class="ti-comment"></i> 264</a>
+                <div class="skill-card">
+
+                    <h4>Metasploit</h4>
+
+                    <div class="progress">
+
+                        <span style="width:85%"></span>
+
+                    </div>
+
+                    <small>85%</small>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h4>Python</h4>
+
+                    <div class="progress">
+
+                        <span style="width:90%"></span>
+
+                    </div>
+
+                    <small>90%</small>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h4>JavaScript</h4>
+
+                    <div class="progress">
+
+                        <span style="width:90%"></span>
+
+                    </div>
+
+                    <small>90%</small>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h4>Go</h4>
+
+                    <div class="progress">
+
+                        <span style="width:82%"></span>
+
+                    </div>
+
+                    <small>82%</small>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <h4>AWS</h4>
+
+                    <div class="progress">
+
+                        <span style="width:78%"></span>
+
+                    </div>
+
+                    <small>78%</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+             CERTIFICATIONS
+    ====================================== -->
+
+    <section id="certifications">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Learning & Certifications</h2>
+
+            </div>
+
+            <div class="cert-grid">
+
+                <div class="cert-card">
+
+                    <i class="fas fa-shield-halved"></i>
+
+                    <h4>Hack The Box</h4>
+
+                    <p>Active penetration testing labs and writeups.</p>
+
+                </div>
+
+                <div class="cert-card">
+
+                    <i class="fas fa-network-wired"></i>
+
+                    <h4>TryHackMe</h4>
+
+                    <p>Blue Team and Red Team practical learning.</p>
+
+                </div>
+
+                <div class="cert-card">
+
+                    <i class="fab fa-aws"></i>
+
+                    <h4>AWS Cloud Security</h4>
+
+                    <p>Identity management and cloud security labs.</p>
+
+                </div>
+
+                <div class="cert-card">
+
+                    <i class="fas fa-code"></i>
+
+                    <h4>Zone01 Kisumu</h4>
+
+                    <p>Software Engineering and Go development.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+             EXPERIENCE
+    ====================================== -->
+
+    <section id="experience">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Experience</h2>
+
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-date">
+
+                        2026
+
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Security Analyst & Penetration Tester</h3>
+
+                        <p>
+
+                            Conducting vulnerability assessments,
+                            network enumeration, SQL Injection testing,
+                            cloud security labs and secure coding.
+
                         </p>
 
-                        <p>Your website needs to harmonize functionality with beauty, enticing visitors to explore pages while supporting your commercial and marketing efforts.</p>
+                    </div>
 
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
                 </div>
-            </div>  end of blog wrapper 
 
-        </div><end of container 
-    </section><end of blog section 
+                <div class="timeline-item">
 
-    contact section 
-    <section class="section" id="contact">
-        <div class="container text-center">
-            <p class="section-subtitle">How to reach me</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-             contact form 
-            <form action="https://formspree.io/f/xqejkdbq" class="contact-form col-md-10 col-lg-8 m-auto" method="POST">
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input type="text" name="fullname" size="50" class="form-control" placeholder="Your Name" required>
+                    <div class="timeline-date">
+
+                        2025
+
                     </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" name="email" class="form-control" placeholder="Enter Email" required>
+
+                    <div class="timeline-content">
+
+                        <h3>Software Developer</h3>
+
+                        <p>
+
+                            Building secure applications using Go,
+                            JavaScript, React, PHP and Python.
+
+                        </p>
+
                     </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="message" id="comment" rows="6" class="form-control"
-                            placeholder="Write Something" required></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
-                    </div>
+
                 </div>
-            </form> end of contact form 
-        </div><end of container 
-    </section>end of contact section -
 
-    footer 
-    <div class="container">
-        <footer class="footer">
-            <p class="mb-0">Copyright
-                <script>document.write(new Date().getFullYear())</script> &copy; <a
-                    href="index.html">Jack the Developer </a>
-            </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="https://www.linkedin.com/in/ogondajack/" class="link"><i class="ti-linkedin"></i></a>
-                <a href="https://github.com/jackomosh" class="link"><i class="ti-github"></i></a>
+                <div class="timeline-item">
+
+                    <div class="timeline-date">
+
+                        2024
+
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>ICT Officer & Data Analyst</h3>
+
+                        <p>
+
+                            ICT infrastructure support, innovation
+                            management, data analysis and systems
+                            administration.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
-        </footer>
-    </div> 
-   
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-   
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+        </div>
 
-  
+    </section>
+
+    <!-- =====================================
+              STATS
+    ====================================== -->
+
+    <section class="stats">
+
+        <div class="container">
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <h2>40+</h2>
+
+                    <p>Security Labs</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <h2>15+</h2>
+
+                    <p>Projects</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <h2>10+</h2>
+
+                    <p>Writeups</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <h2>100%</h2>
+
+                    <p>Commitment to Learning</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+            PROJECTS
+    ====================================== -->
+
+    <section id="projects">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Featured Projects</h2>
+
+                <p>Security, software development and automation.</p>
+
+            </div>
+                        <div class="projects-grid">
+
+                <div class="project-card">
+
+                    <div class="project-header">
+
+                        <i class="fas fa-search"></i>
+
+                        <span>Python</span>
+
+                    </div>
+
+                    <h3>Nmap Parser</h3>
+
+                    <p>
+                        Parses XML and GNMAP files generated by Nmap
+                        to simplify enumeration and vulnerability
+                        assessment workflows.
+                    </p>
+
+                    <a href="https://github.com/ckotugeh"
+                        target="_blank">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-header">
+
+                        <i class="fas fa-globe"></i>
+
+                        <span>Bash</span>
+
+                    </div>
+
+                    <h3>Bash OSINT Toolkit</h3>
+
+                    <p>
+                        Automated reconnaissance toolkit using
+                        public intelligence sources and APIs for
+                        information gathering.
+                    </p>
+
+                    <a href="https://github.com/ckotugeh"
+                        target="_blank">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-header">
+
+                        <i class="fas fa-code"></i>
+
+                        <span>Go</span>
+
+                    </div>
+
+                    <h3>GMC For Doctors</h3>
+
+                    <p>
+                        Collaborative healthcare platform focused
+                        on performance, scalability and secure
+                        application development.
+                    </p>
+
+                    <a href="https://github.com/ckotugeh"
+                        target="_blank">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+                WRITEUPS
+    ====================================== -->
+
+    <section id="writeups">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Security Writeups</h2>
+
+                <p>
+                    Practical learning from labs, CTFs and
+                    penetration testing exercises.
+                </p>
+
+            </div>
+
+            <div class="writeups-grid">
+
+                <div class="writeup-card">
+
+                    <span class="tag">
+
+                        SQL Injection
+
+                    </span>
+
+                    <h3>
+
+                        HTB SQL Injection Walkthrough
+
+                    </h3>
+
+                    <p>
+
+                        Demonstrates exploitation and remediation
+                        of SQL Injection vulnerabilities.
+
+                    </p>
+
+                </div>
+
+                <div class="writeup-card">
+
+                    <span class="tag">
+
+                        AWS
+
+                    </span>
+
+                    <h3>
+
+                        AWS IAM Misconfiguration
+
+                    </h3>
+
+                    <p>
+
+                        Exploiting excessive permissions and
+                        implementing least privilege controls.
+
+                    </p>
+
+                </div>
+
+                <div class="writeup-card">
+
+                    <span class="tag">
+
+                        Enumeration
+
+                    </span>
+
+                    <h3>
+
+                        Network Discovery & SMB Analysis
+
+                    </h3>
+
+                    <p>
+
+                        Host discovery, share enumeration and
+                        vulnerability assessment methodologies.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+               LABS
+    ====================================== -->
+
+    <section id="labs">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Hack The Box & Labs</h2>
+
+            </div>
+
+            <div class="labs-grid">
+
+                <div class="lab-card">
+
+                    <h3>40+</h3>
+
+                    <p>Security Labs Completed</p>
+
+                </div>
+
+                <div class="lab-card">
+
+                    <h3>Web Security</h3>
+
+                    <p>OWASP Top 10 Testing</p>
+
+                </div>
+
+                <div class="lab-card">
+
+                    <h3>Cloud Security</h3>
+
+                    <p>AWS Security Assessments</p>
+
+                </div>
+
+                <div class="lab-card">
+
+                    <h3>Network Security</h3>
+
+                    <p>Enumeration & Exploitation</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+               CONTACT
+    ====================================== -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Contact Me</h2>
+
+                <p>
+
+                    Let's discuss cybersecurity,
+                    software development or collaboration.
+
+                </p>
+
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+
+                    <i class="fas fa-envelope"></i>
+
+                    <h3>Email</h3>
+
+                    <p>ckotugeh@gmail.com</p>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <i class="fab fa-github"></i>
+
+                    <h3>GitHub</h3>
+
+                    <p>github.com/ckotugeh</p>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <i class="fab fa-linkedin"></i>
+
+                    <h3>LinkedIn</h3>
+
+                    <p>Charles Otugeh</p>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <i class="fas fa-phone"></i>
+
+                    <h3>Phone</h3>
+
+                    <p>+254 704 433 824</p>
+
+                </div>
+
+            </div>
+
+            <form class="contact-form">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    required>
+
+                <textarea
+                    rows="6"
+                    placeholder="Your Message"
+                    required></textarea>
+
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================
+                FOOTER
+    ====================================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <h3>Charles Otugeh</h3>
+
+                <p>
+
+                    Penetration Tester • Security Analyst •
+                    Application Developer
+
+                </p>
+
+                <div class="footer-socials">
+
+                    <a href="https://github.com/ckotugeh">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                    <a href="https://linkedin.com/in/charles-otugeh">
+
+                        <i class="fab fa-linkedin"></i>
+
+                    </a>
+
+                    <a href="mailto:ckotugeh@gmail.com">
+
+                        <i class="fas fa-envelope"></i>
+
+                    </a>
+
+                </div>
+
+                <p class="copyright">
+
+                    © 2026 Charles Otugeh.
+                    All Rights Reserved.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Typed.js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Particles.js -->
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Main JS -->
+
     <script src="assets/js/script.js"></script>
----->
+
 </body>
 
-</html> 
+</html>
