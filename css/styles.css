@@ -51,3 +51,10 @@ body {
       font-size: 0.9rem;
       color: #8b949e;
     }
+    p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: medium;
+    }
+    p:hover{
+      color: bisque;
+    }
